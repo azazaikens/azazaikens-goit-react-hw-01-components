@@ -1,0 +1,59 @@
+.profile {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 282px;
+    height: 374px;
+
+    border: 1px solid rgba(40, 40, 40, 0.2);
+
+    border-radius: 4px;
+    /* background-color: black; */
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 288px;
+}
+
+.avatar {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+}
+
+.stats {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 282px;
+    max-height: 100%;
+    height: 82px;
+    background-color: rgba(96, 92, 227, 0.2);
+
+    /* list-style: none; */
+}
+
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    width: 100%;
+
+
+    /* background-color: black; */
+    
+}

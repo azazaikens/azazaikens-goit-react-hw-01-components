@@ -1,0 +1,37 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(40, 40, 40, 0.5);
+}
+
+.on {
+    width: 18px;
+    height: 18px;
+
+    background-color: green;
+
+    border-radius: 50%;
+}
+.off {
+    width: 18px;
+    height: 18px;
+
+    background-color: red;
+
+    border-radius: 50%;
+}
+
+.friendList {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+
+    max-width: 308px;
+    width: 100%;
+
+    padding: 0;
+}
